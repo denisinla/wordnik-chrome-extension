@@ -1,0 +1,126 @@
+/* Default Styles */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@bodycolor: #111;
+@urls: #999;
+@white: #fff;
+@bold-weight: 700;
+@source-color: #888;
+
+
+body{
+	font: 0.9em "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: @bodycolor;
+}
+#input{
+	margin: 0 auto 20px;
+	width: 350px;
+	height: auto;
+	img{
+		width: 203px;
+		height: 48px;
+	}
+	ul{
+		margin: 0;
+		padding: 0;
+		li{
+			list-style: none;
+			margin: 10px 0 0 0;
+			padding: 0;
+			text-align: center;
+		}
+	}
+	input[type="text"]{
+		width: 280px;
+		padding: 10px;
+		font-size: 1.2em;
+		-webkit-border-radius: 3px;
+		-o-border-radius: 3px;
+		border-radius: 3px;
+		margin: 10px 20px;
+		background-color: white !important;
+		border: 2px solid #CCC;
+		border-bottom-color: #EEE;
+		border-right-color: #EEE;
+	}
+	h2{
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		display: block;
+		color: #1980D7;
+		margin: 0;
+		padding: 25px 0 5px 0;
+		font-size: 1.3em;
+		cursor: pointer;
+	}
+}
+#output{
+	margin: 0 0 10px 0;
+	ul{
+		margin: 0;
+		padding: 0;
+		li{
+			list-style: none;
+			margin: 10px 0 0 0;
+			padding: 10px;
+			text-align: left;
+			.source{
+				color: @source-color;
+				font-size: 0.8em;
+				font-style: italic;
+
+			}
+		}
+	}
+}
+#getTweets{
+	background-image: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0%, #02649B), color-stop(100%, #1980D7));
+	background-image: linear-gradient(bottom, #02649B 0%, #1980D7 100%);
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	padding: 10px;
+	border: none;
+	color: @white;
+	font-weight: @bold-weight;
+}
