@@ -7,4 +7,4 @@ If you wish to fork, please be aware that you WILL REQUIRE AN API KEY from Wordn
 Have fun !
 
 
-_Special thanks to [Zeke Sikelianos](github.com/zeke) for the inspiration and wordnik documentation, because if all fails, READ THE MANUAL !_ o.O
+_Special thanks to [Zeke Sikelianos](http://github.com/zeke) for the inspiration and wordnik documentation, because if all fails, READ THE MANUAL !_ o.O
