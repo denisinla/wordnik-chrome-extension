@@ -5,7 +5,7 @@ wordnik-chrome-extension
 
 
 Hacked up a small chrome extension that lets you search the all powerful Wordnik API.
-If you wish to fork, please be aware that you WILL REQUIRE AN API KEY from Wordnik. You can easily sign up at http://developer.wordnik.com
+If you wish to fork, please be aware that you WILL REQUIRE AN API KEY from Wordnik since the current one does have a limit. You can easily sign up at http://developer.wordnik.com
 
 Have fun !
 
